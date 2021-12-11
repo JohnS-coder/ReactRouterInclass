@@ -5,8 +5,8 @@ const MainHeader = () => {
     return (
         <header>
             <nav>
-                <ul>
-                    <li>
+                <ul style={{listStyleType:'none'}} >
+                    <li >
                         <Link className={(navData)=>navData.isActive ? 'active' : ''} to='/welcome'>
                             Welcome
                         </Link>
